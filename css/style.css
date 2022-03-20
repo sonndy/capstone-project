@@ -120,18 +120,15 @@ main {
 .section-one-content {
     padding-left: 25px;
     padding-right: 25px;
-    line-height: 27px;
+    line-height: 30px;
     padding-bottom: 25px;
 }
 
-.first-section-header {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 40px;
-    text-align: center;
+.first-section {
+    margin-top: 50px;
 }
 
-figcaption {
+.caption-one{
     font-size: 10px;
     text-align: center;
 }
@@ -194,6 +191,80 @@ figcaption {
 .second-section-second-paragraph{
     width: 80%;
 }
+
+/* Third section styles */
+
+.businiss-image {
+    width: 100%;
+}
+/* Fourth section styles */
+.section-four-content {
+    line-height: 30px;
+}
+
+.fourth-section-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.section-four-content {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.fourth-section-header {
+    text-align: center;
+}
+
+.tweet-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.caption-two {
+    font-size: 10px;
+    text-align: center;
+}
+
+.third-section-header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px
+}
+
+.third-section-paragraph {
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.image-container figure {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container figcaption {
+    margin-top: 5px;
+}
+
+.fifth-section-header {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fifth-section-paragraph {
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 30px;
+}
+
 @media (min-width: 500px) {
     .button { 
         top: 30%;
@@ -207,7 +278,7 @@ figcaption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
 
     main {
         width: 70%;
@@ -225,18 +296,9 @@ figcaption {
         width: 60%;
     }
 
-    .section-content{
+    .second-content{
         display: flex;
     }
-
-    /* .second-section-second-paragraph{
-        width: 20%;
-    }
-    
-    .second-section-first-paragraph {
-        width: 20%;
-
-    } */
 
     .section-two-content {
         justify-content: center;
@@ -254,6 +316,37 @@ figcaption {
         justify-content: space-between;
     }
 
+    .fourth-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-four-content {
+      padding-right: 20px;
+    }
+    
+    .image-container {
+        width: 30%;
+        height: 300px;
+    }
+    .image-gallery{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .businiss-image {
+        height: 300px;
+    }
+
+    .fifth-section {
+        margin-top: 100px;
+    }
+
+    
+    
 
 }
 
