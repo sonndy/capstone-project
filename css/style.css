@@ -218,13 +218,22 @@ main {
 .fourth-section-header {
     text-align: center;
 }
-
 .tweet-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.tweet-section figure {
     width: 90%;
-    margin: 0 auto;
+   margin: 0 auto;
 }
 
 .caption-two {
+    font-size: 10px;
+    text-align: center;
+}
+
+.caption-three {
     font-size: 10px;
     text-align: center;
 }
@@ -253,6 +262,7 @@ main {
     margin-top: 5px;
 }
 
+/* Fifth paragraph styles */
 .fifth-section-header {
     margin-bottom: 40px;
     font-size: 40px;
@@ -265,6 +275,101 @@ main {
     line-height: 30px;
 }
 
+.nesi-tweet {
+    width: 90%;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.caption-three {
+    width: 100%;
+    margin-bottom: 40px
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+
+  /* section seven styles */
+
+  .seventh-section-header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .seventh-section-first-paragraph{
+      padding-left: 25px;
+      padding-right: 25px;
+      line-height: 30px;
+      padding-bottom: 25px;
+  }
+
+  .youtube-section-seven iframe {
+      text-align: center;
+      width: 100%;
+  }
+
+  .expert {
+      background-color: black;
+      color: white;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: 80%;
+      padding: 10px;
+      line-height: 25px;
+      
+  }
+
+  .expert span {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+  }
+
+/* Pew Research styles */
+
+.image-gallery-two {
+    width: 100%;
+}
+.pew {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+  /* .section-seven-content {
+      float: left;
+  } */
+
 @media (min-width: 500px) {
     .button { 
         top: 30%;
@@ -276,6 +381,56 @@ main {
     .button { 
         top: 40%;
     }
+
+    .tweet-section figure {
+        width: 80%;
+       margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 1000px){
+    .nesi-tweet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nesi-tweet figure{
+        width: 45%;
+        
+    }
+
+    
+  .youtube-section-seven{
+    float: right;
+    padding-left: 20px;
+  }
+
+  .youtube-section-seven iframe {
+    text-align: center;
+    width: 500px;
+}
+
+    .tweet-expert {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .expert {
+        height: 200px;
+    }
+    .image-gallery-two {
+        width: 100%;
+        display: flex;
+    }
+    .pew {
+        width: 90%;
+        display: block;
+    }
+    
+
 }
 
 @media (min-width: 1200px) {
@@ -317,10 +472,7 @@ main {
     }
 
     .fourth-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
+        /* width: 90%; */
         margin: 0 auto;
     }
 
