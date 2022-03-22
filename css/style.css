@@ -1,13 +1,26 @@
 /* Main styles */
 body {
     background-color: hsl(210, 46%, 95%);
+    
 }
 main {
-    background-color: rgb(157, 169, 172);
+    background:#efefef;
     width: 100%;
     margin: 0 auto;
     min-width: 375px;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+.positive-content {
+    padding-left:20px ;
+    padding-right: 20px;
+    /* padding-right: 50px ; */
+}
+
+.negative-content {
+    padding-left:20px ;
+    padding-right: 20px;
 }
 
 /* header style */
@@ -81,16 +94,16 @@ main {
 .video-container .close {
     position: absolute;
     top: 15%;
-    right: 22%;
+    right: 14%;
     font-size: 20px;
     cursor: pointer;
     font-size: 30px;
 }
 
 .youtube {
-    width: 90%;
+    width: 80%;
     max-width: 1000px;
-    height: 50%;
+    height: 60%;
     transform: scale(0);
     box-shadow: 0 20px 20px rgba(0,0,0,.2);
     outline: none;
@@ -114,14 +127,14 @@ main {
 .section-img {
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 
 .section-one-content {
-    padding-left: 25px;
-    padding-right: 25px;
     line-height: 30px;
     padding-bottom: 25px;
+    margin-right: 20px;
 }
 
 .first-section {
@@ -131,7 +144,16 @@ main {
 .caption-one{
     font-size: 10px;
     text-align: center;
+    margin-top: 5px;
 }
+
+/* dividor styles */
+
+/* .divider {
+    width: 15%;
+    height: 5px;
+    border-top: 3px solid red;
+} */
 
 /* Second section styles */
 
@@ -139,8 +161,7 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 40px;
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
 }
 
 .section-two-content {
@@ -151,30 +172,47 @@ main {
     margin-top: 50px;
 }
 
-.youtube-section{
-    text-align: center;
-}
 
 .youtube-video {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 90%;
     height: 500px;
+    margin: 0 auto;
+    margin-left: 30px;
+    border: 1px solid #78C0A8;
+    
+    
 }
 
+.thisvideo {
+    /* border: 1px solid #000; */
+    padding: 0;
+    border-radius: 10px;
+}
+
+.video-two{
+    width: 80%;
+    padding: 0;
+}
+
+
 .second-section-second-paragraph{
-    background-color: #0A1114;
-    color: white;
+    background:#EDEDED;
+    border-left:8px solid #78C0A8;
+    color: #555555;
     width: 40%;
     padding: 20px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .second-section-first-paragraph {
-    background-color: #0A1114;
-    color: white;
-    width: 40%;
     padding: 20px;
+    background:#EDEDED;
+    border-left:8px solid #78C0A8;
+    color: #555555;;
     line-height: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -185,17 +223,24 @@ main {
 }
 
 .second-section-first-paragraph {
-    width: 80%;
+    width: 90%;
+    border-radius: 10px;
 }
 
 .second-section-second-paragraph{
-    width: 80%;
+    width: 90%;
+    border-radius: 10px;
 }
 
 /* Third section styles */
 
 .businiss-image {
     width: 100%;
+    border-radius: 10px;
+}
+
+.image-container figcaption {
+
 }
 /* Fourth section styles */
 .section-four-content {
@@ -203,11 +248,9 @@ main {
 }
 
 .fourth-section-header {
-    margin-top: 40px;
     margin-bottom: 40px;
     font-size: 40px;
     text-align: left;
-    margin-left: 50px;
 }
 
 .section-four-content {
@@ -228,6 +271,11 @@ main {
    margin: 0 auto;
 }
 
+.twitter-tweet {
+   border: 2px solid #78C0A8;
+   border-radius: 10px;
+}
+
 .caption-two {
     font-size: 10px;
     text-align: center;
@@ -243,14 +291,12 @@ main {
     margin-bottom: 40px;
     font-size: 40px;
     text-align: left;
-    margin-left: 50px
 }
 
 .third-section-paragraph {
-    padding-left: 25px;
-    padding-right: 25px;
     line-height: 30px;
     padding-bottom: 25px;
+    /* padding-right: 50px; */
 }
 
 .image-container figure {
@@ -259,7 +305,10 @@ main {
 }
 
 .image-container figcaption {
+    font-size: 12px;
+    text-align: center;
     margin-top: 5px;
+    line-height: 15px;
 }
 
 /* Fifth paragraph styles */
@@ -270,14 +319,12 @@ main {
 }
 
 .fifth-section-paragraph {
-    padding-left: 25px;
-    padding-right: 25px;
     line-height: 30px;
 }
 
 .nesi-tweet {
     width: 90%;
-    margin-top: 50px;
+    padding-top: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -285,7 +332,9 @@ main {
 
 .caption-three {
     width: 100%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .separator {
@@ -294,7 +343,10 @@ main {
     text-align: center;
     color: red;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .separator::before,
@@ -305,7 +357,7 @@ main {
   }
   
   .separator:not(:empty)::before {
-    margin-right: .25em;
+    /* margin-right: .25em; */
   }
   
   .separator:not(:empty)::after {
@@ -319,12 +371,9 @@ main {
     margin-bottom: 40px;
     font-size: 40px;
     text-align: left;
-    margin-left: 50px;
   }
 
   .seventh-section-first-paragraph{
-      padding-left: 25px;
-      padding-right: 25px;
       line-height: 30px;
       padding-bottom: 25px;
   }
@@ -335,13 +384,13 @@ main {
   }
 
   .expert {
-      background-color: black;
       color: white;
       margin: 0 auto;
       margin-bottom: 20px;
       width: 80%;
       padding: 10px;
       line-height: 25px;
+      border-radius: 10px;
       
   }
 
@@ -349,6 +398,44 @@ main {
       display: block;
       text-align: right;
       margin-top: 10px;
+  }
+
+  blockquote{
+    /* font-size: 1.4em;
+    width:60%;
+    margin:50px auto; */
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
   }
 
 /* Pew Research styles */
@@ -362,13 +449,53 @@ main {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
+/* Conclusion styles */
 
+.conclusion {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+}
 
-  /* .section-seven-content {
-      float: left;
-  } */
+.conclusion-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.conclusion-content p {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+/* References styles */
+
+.references h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.references {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    line-height: 20px;
+}
+
+.references li {
+    margin-bottom: 20px;
+    width: 100%;
+}
 
 @media (min-width: 500px) {
     .button { 
@@ -404,7 +531,6 @@ main {
     
   .youtube-section-seven{
     float: right;
-    padding-left: 20px;
   }
 
   .youtube-section-seven iframe {
@@ -419,7 +545,7 @@ main {
     }
 
     .expert {
-        height: 200px;
+        height: 150px;
     }
     .image-gallery-two {
         width: 100%;
@@ -435,6 +561,16 @@ main {
 
 @media (min-width: 1200px) {
 
+    .positive-content {
+        padding-left:50px ;
+        padding-right: 50px;
+        /* padding-right: 50px ; */
+    }
+    
+    .negative-content {
+        padding-left:50px ;
+    }
+
     main {
         width: 70%;
     }
@@ -442,13 +578,23 @@ main {
         top: 40%;
     }
 
-    .first-content{
-        display: flex;
-        align-items: center;
+    
+    .video-two {
+        margin-left: 20px;
+        border-radius: 10px;
+        /* background-color: red; */
     }
+  /* .youtube-section-seven iframe {
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 20px;
+    width: 100%;
+} */
 
-    .section-one-content{
-        width: 60%;
+    .section-one-image {
+        float: right;
+        width: 50%;
+        padding-left: 20px;
     }
 
     .second-content{
@@ -486,7 +632,9 @@ main {
     }
     .image-gallery{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-right: 50px;
+        margin-top: 30px;
     }
 
     .businiss-image {
@@ -497,7 +645,35 @@ main {
         margin-top: 100px;
     }
 
-    
+    .third-section-paragraph {
+        padding: 0;
+    }
+
+    .thisvideo {
+        margin: 0;
+    }
+
+    .video-two {
+        margin-left: 20px;
+    }
+
+    .section-four-content {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
     
 
 }
