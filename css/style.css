@@ -14,10 +14,21 @@ main {
   position: absolute;
   top: 20px;
   right: 20px;
-  padding: 12px 22px;
+  display: flex;
+  justify-content: space-around;
+  width: 320px;
+  z-index: 10;
+}
+
+.Rutgers-captone-button {
+  padding: 12px 12px;
   border-radius: 5px;
   background-color: #65a7b8;
-  z-index: 10;
+  cursor: pointer;
+}
+
+.Rutgers-captone-button:hover {
+  background-color: #63bbac;
 }
 
 .Rutgers-captone a {
@@ -76,6 +87,7 @@ figcaption a {
   padding-bottom: 20px;
   background-color: #3d8a9e;
   color: #0a1114;
+  cursor: pointer;
 }
 
 .button {
@@ -98,7 +110,7 @@ figcaption a {
 
 .play-btn:hover {
   color: #3d8a9e;
-  background-color: aliceblue;
+  background-color: #63bbac;;
 }
 
 .modal {
@@ -175,6 +187,7 @@ figcaption a {
   font-size: 10px;
   text-align: center;
   margin-top: 5px;
+  line-height: 15px;
 }
 
 /* dividor styles */
